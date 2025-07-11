@@ -43,9 +43,3 @@ app.listen(PORT, () => {
       .white
   );
 });
-const cors = require("cors");
-
-app.use(cors({
-   origin: "https://sparkly-blancmange-350149.netlify.app/",  // your frontend domain
-   credentials: true
- }));
